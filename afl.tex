@@ -61,7 +61,7 @@ D = \{(x,y)\ |\ 0\ \leq\ y\ \leq\ 2,\ 1-y\ \leq\ x\ \leq\ 1 \}
 f(x,y) = x^2y
 \end{equation}
 Lad $c=0$, $d=2$, $v(y)=1-y$, $h(y)=1$. \\
-Da mængden $D$ er opskrevet på formen 5.2 fra side 154 i TK, da kan planintegralet beregnes som det integrerede integral opgivet ved 
+Da mængden $D$ er opskrevet på formen 5.2 fra side 154 i TK, da kan planintegralet beregnes som det itererede integral opgivet ved 
 \[
 \int_D f(x,y) = \int^{y=2}_{y=0}\Bigg(\int^{x=1}_{x=y-1} f(x,y)\ dx \Bigg)\ dy
 \]
@@ -77,8 +77,8 @@ Først kan det ses at x mindst kan være $-1$ for $y=2$, da den nedre begrænsin
 For at kigge på $y$ ses sammenhængen mellem $y \text{ og } x$ således fås 
 \begin{align*}
 1-y\leq x \\
--y \geq x-1 \\
-y \leq 1-x
+-y \leq x-1 \\
+y \geq 1-x
 \end{align*}
 Samtidig gælder $y$'s øvre begrænsning stadig, da fås $D'$ til 
 \[
